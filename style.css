@@ -13,4 +13,23 @@
         <div class="container">
             <div class="logo"> Header Logo</div>
             <div class="header-text">
-                <h1>Hero Text</h1>
+                <h1>Hero Text</h1>                <h1>Hero Text</h1>
+                <p>Three other text elements</p>
+                <a href="#">Clickable Link</a>
+            </div>
+            <div class="image-box"></div>
+        </div>
+    </header>
+/* reset default margin and padding */
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizzing: border-box;
+
+    }
+.section1{
+background-color: #1f2937;
+height:  78vh;
+padding: 0 280px;
+
+        
