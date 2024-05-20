@@ -1,4 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Header content goes here -->
+    </header>
+    
+    <nav>
+        <!-- Navigation menu goes here -->
+    </nav>
+    
+    <main>
+        <section class="section-1">
+            <!-- Content for first section goes here -->
+        </section>
+        
+        <section class="section-2">
+            <!-- Content for second section goes here -->
+            <div class="image-box">
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image2.jpg" alt="Image 2">
+                <img src="image3.jpg" alt="Image 3">
+                <img src="image4.jpg" alt="Image 4">
+            </div>
+        </section>
+        
+        <section class="section-3">
+            <!-- Content for third section goes here -->
+        </section>
+        
+        <section class="section-4">
+            <!-- Content for fourth section goes here -->
+        </section>
+    </main>
+    
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+</body>
+</html>
 
 
 
