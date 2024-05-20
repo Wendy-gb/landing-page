@@ -18,7 +18,18 @@
     
     <main>
         <section class="section-1">
-            <!-- Content for first section goes here -->
+   <header>
+        <h2>header logo</h2>
+    </header>
+    <div class="space-box">
+        <p>This website is awesome.</p>
+        <a href="#">sign up</a>
+    </div>
+    <div class="image-box">
+        <img src="image5.jpg" alt="Image 5">
+    </div>
+</section>
+
         </section>
         
         <section class="section-2">
