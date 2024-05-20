@@ -11,7 +11,7 @@
     <header>
         <header logo>
     </header>
-    
+    /* navigation bar */
     <nav>
         <nav>
     <ul>
@@ -79,7 +79,116 @@
 </body>
 </html>
 
+/* style.css */
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto;
+    
+}
+/* Header styles */
+header {
+    background-color: #333;
+    color: #e5e7eb;
+    padding: 20px;
+    text-align: center;
+}
+/* nav bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13%;
+    
+.section1 {
+  background-color: #1f2937;
+  height: 78vh;
+  padding: 0 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* nav bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13%;
+}
+.header-link {
+  display: flex;
+  font-size: 24px;
 
+  list-style: none;
+  gap: 30px;
+}
+.header-link a {
+  text-decoration: none;
+  color: #e5e7e5;
+}
+.header-link a:hover {
+  color: #3882f6;
+}
+
+.header-logo a {
+  font-size: 30px;
+  color: #f9faf8;
+  font-weight: 700;
+  text-decoration: none;
+}
+/* hero */
+/* hero left */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  height: 44%;
+  margin-bottom: 13%;
+}
+.hero-text {
+  width: 44%;
+}
+.hero-main-text {
+  color: #f9faf8;
+  font-size: 62px;
+  font-weight: 700;
+}
+
+.hero-secondary-text{ 
+color: #e5e7e5;
+  margin-top: 10px;
+  font-size: 24px;
+}
+.Sign-up {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 10px 45px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+color: #e5e7e5;
+  margin-top: 10px;
+  font-size: 24px;
+}
+.Sign-up {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 10px 45px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.
+    
 
 
 
