@@ -9,50 +9,72 @@
 </head>
 <body>
     <header>
-        <!-- Header content goes here -->
+        <header logo>
     </header>
     
     <nav>
-        <!-- Navigation menu goes here -->
-    </nav>
+        <nav>
+    <ul>
+        <li><a href="#section-1">header link one t</a></li>
+        <li><a href="#section-2">header link two</a></li>
+        <li><a href="#section-3">header link three</a></li> 
+    </ul>
+</nav>
     
     <main>
         <section class="section-1">
    <header>
-        <h2>header logo</h2>
+        <h1>This website is awesome</h1>
     </header>
     <div class="space-box">
-        <p>This website is awesome.</p>
+        <p>This website has some subtext that goes here under the main title.</p>
         <a href="#">sign up</a>
     </div>
     <div class="image-box">
-        <img src="image5.jpg" alt="Image 5">
+        <img src="">
+    </div>
+</section>
+
+        </section>
+
+        <section class="section-2">
+            <p> Some random information.</p>
+            <div class="image-box">
+                <img src="image1.jpg" alt="Image 1">
+                <p>this is a subtext under an illustration</p>
+                <img src="image2.jpg" alt="Image 2">
+               <p>this is a subtext under an illustration</p>
+                <img src="image3.jpg" alt="Image 3">
+                <p>this is a subtext under an illustration</p>
+                <img src="image4.jpg" alt="Image 4">       
+                <p>this is a subtext under an illustration</p>
+
+            </div>
+        </section>
+        
+<section class="section-3">
+
+    <div class="contact-info">
+        <p>This is an inspiring quote,or a testimonial from a customer.Maybe it's just filling up space,or maybe people will actually read it.who knows? All i know is thatit looks nicd</p>
+        <p>-Thor,God of Thunder</p>
     </div>
 </section>
 
         </section>
         
-        <section class="section-2">
-            <!-- Content for second section goes here -->
-            <div class="image-box">
-                <img src="image1.jpg" alt="Image 1">
-                <img src="image2.jpg" alt="Image 2">
-                <img src="image3.jpg" alt="Image 3">
-                <img src="image4.jpg" alt="Image 4">
-            </div>
-        </section>
-        
-        <section class="section-3">
-            <!-- Content for third section goes here -->
-        </section>
-        
-        <section class="section-4">
-            <!-- Content for fourth section goes here -->
-        </section>
+        </section><section class="section-4">
+    <header>
+        <h2>Header 3</h2>
+    </header>
+    <div class="text-box">
+        <div class="clickable-box">
+            <p>call to action it is time!</p>
+        <p> sign up for our product by clicking that button right over there</p>
+            <a href="#">Sign up</a>
+        </div>
     </main>
     
     <footer>
-        <!-- Footer content goes here -->
     </footer>
 </body>
 </html>
