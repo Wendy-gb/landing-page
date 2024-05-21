@@ -156,7 +156,7 @@ nav {
   font-weight: 700;
   text-decoration: none;
 }
-    .Sign-up {
+ <a>Sign-up</a> {
   margin-top: 15px;
   font-weight: 600;
   font-size: 24px;
@@ -197,7 +197,7 @@ color: #e5e7e5;
   font-size: 24px;
 }
 /* section 3 */
-{
+
 .font-size: 30px;
     margin-top: 5px;
     padding-right: 150px;
@@ -231,7 +231,7 @@ color: #e5e7e5;
     border: 2px solid #f9faf8;
    
 }
-.Sign-up {
+<a>Sign-up</a> {
   margin-top: 15px;
   font-weight: 600;
   font-size: 24px;
@@ -256,7 +256,7 @@ footer p{
     color: #f9faf8;
    
 }
-p a{
+p {
     text-decoration: none;
     color: #f9faf8;
 }    
