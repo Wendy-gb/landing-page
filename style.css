@@ -96,7 +96,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: #1F2937;
     color: #e5e7eb;
     padding: 20px;
     text-align: center;
@@ -106,8 +106,20 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 13%;
-    
+  height: 13%;nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+        
 .section1 {
   background-color: #1f2937;
   height: 78vh;
@@ -144,6 +156,19 @@ nav {
   font-weight: 700;
   text-decoration: none;
 }
+    .Sign-up {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 10px 45px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+    /*  section 2 */
 /* hero */
 /* hero left */
 .hero {
@@ -166,32 +191,13 @@ color: #e5e7e5;
   margin-top: 10px;
   font-size: 24px;
 }
-.Sign-up {
-  margin-top: 15px;
-  font-weight: 600;
-  font-size: 24px;
-  padding: 10px 45px;
-  background-color: #3882f6;
-  color: #f9faf8;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
-}
+
 color: #e5e7e5;
   margin-top: 10px;
   font-size: 24px;
 }
-.Sign-up {
-  margin-top: 15px;
-  font-weight: 600;
-  font-size: 24px;
-  padding: 10px 45px;
-  background-color: #3882f6;
-  color: #f9faf8;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
-}
+/* section 3 */
+{
 .font-size: 30px;
     margin-top: 5px;
     padding-right: 150px;
@@ -225,7 +231,17 @@ color: #e5e7e5;
     border: 2px solid #f9faf8;
    
 }
-
+.Sign-up {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 10px 45px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
 
 /* footer */
 footer{
