@@ -8,11 +8,10 @@
 </head>
 <body>
     <header>
-        <header logo>
+        header logo
     </header>
-    /* navigation bar */
+    <!-- Navigation bar -->
     <nav>
-        <nav>
     <ul>
         <li><a href="#section-1">header link one t</a></li>
         <li><a href="#section-2">header link two</a></li>
@@ -33,8 +32,6 @@
         <img src="">
     </div>
 </section>
-
-        </section>
 
         <section class="section-2">
             <p> Some random information.</p>
@@ -58,10 +55,8 @@
         <p>-Thor,God of Thunder</p>
     </div>
 </section>
-
-        </section>
         
-        </section><section class="section-4">
+    <section class="section-4">
     <header>
         <h2>Header 3</h2>
     </header>
@@ -71,28 +66,34 @@
         <p> sign up for our product by clicking that button right over there</p>
             <a href="#">Sign up</a>
         </div>
+    </div>
+</section>
     </main>
     
     <footer>
+<p> copywrite @ The Odin Project 2021</p>
     </footer>
 </body>
 </html>
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-/* style.css */@font-face {
+/* Custom Font */
+@font-face {
     font-family: 'CustomFont';
-  src: url('@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 }
 
-{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+/* Body Styles */
 body {
-  font-family: Roboto;
-    
+    font-family: 'CustomFont', Roboto;
+    line-height: 1.6;
 }
+
 /* Header styles */
 header {
     background-color: #333;
@@ -191,8 +192,58 @@ color: #e5e7e5;
   border: none;
   cursor: pointer;
 }
-.
-    
+.font-size: 30px;
+    margin-top: 5px;
+    padding-right: 150px;
+}
+
+/* section 4 */
+
+.call-to-action{
+    height: 50vh;
+    padding: 130px 280px;
+}
+
+.call-to-action-container{
+   height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding:60px 150px ;
+    color: #f9faf8;
+}
+.call-to-action-text h3{
+    font-size: 34px;
+}
+
+.call-to-action-text p{
+    font-size: 24px;
+    color:#e5e7e5
+}
+.call-to-action-btn button{
+    border: 2px solid #f9faf8;
+   
+}
+
+
+/* footer */
+footer{
+    height: 15vh;
+    background-color: #1f2937;
+   
+    padding: 52px 0;
+}
+footer p{
+    text-align: center;
+    font-size: 24px;
+    color: #f9faf8;
+   
+}
+p a{
+    text-decoration: none;
+    color: #f9faf8;
+}    
 
 
 
