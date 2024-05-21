@@ -20,7 +20,7 @@
 </nav>
     
     <main>
-        <section class="section1">
+        <section class=".section1">
    <header>
         <h1>This website is awesome</h1>
     </header>
@@ -33,7 +33,7 @@
     </div>
 </section>
 
-        <section class="section2">
+        <section class=".section2">
             <p> Some random information.</p>
             <div class="image-box">
                 <img src="image1.jpg" alt="Image 1">
@@ -48,7 +48,7 @@
             </div>
         </section>
         
-<section class="section3">
+<section class=".section3">
 
     <div class="contact-info">
         <p>This is an inspiring quote,or a testimonial from a customer.Maybe it's just filling up space,or maybe people will actually read it.who knows? All i know is thatit looks nicd</p>
@@ -56,7 +56,7 @@
     </div>
 </section>
         
-    <section class="section4">
+    <section class=".section4">
     <header>
         <h2>Header 3</h2>
     </header>
@@ -156,7 +156,7 @@ nav {
   font-weight: 700;
   text-decoration: none;
 }
- <a>Sign-up</a> {
+  a{ Sign-up 
   margin-top: 15px;
   font-weight: 600;
   font-size: 24px;
@@ -198,7 +198,7 @@ color: #e5e7e5;
 }
 /* section3 */
 
-.font-size: 30px;
+  font-size: 30px;
     margin-top: 5px;
     padding-right: 150px;
 }
@@ -231,7 +231,7 @@ color: #e5e7e5;
     border: 2px solid #f9faf8;
    
 }
-<a>Sign-up</a> {
+   a{ Sign-up 
   margin-top: 15px;
   font-weight: 600;
   font-size: 24px;
