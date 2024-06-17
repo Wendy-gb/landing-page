@@ -195,23 +195,6 @@ h3 {
 
 }
 
-/* footer */
-footer{
-    height: 15vh;
-    background-color: #1f2937;
-   
-    padding: 52px 0;
-}
-footer p{
-    text-align: center;
-    font-size: 24px;
-    color: #f9faf8;
-   
-}
-p {
-    text-decoration: none;
-    color: #f9faf8;
-}    
 
 .subtext3 {
   font-size: 12px;
